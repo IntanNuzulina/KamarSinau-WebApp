@@ -15,7 +15,7 @@ function Jumbotron() {
                                     alt="First slide"
                                 />
                                 <Carousel.Caption>
-                                    <div className="cap align-items-center justify-content-between">
+                                    <div className="caption align-items-center justify-content-between">
                                         <h2>SELAMAT DATANG DI Kamar<span className='sinau'>Sinau</span></h2>
                                         <h4>Berbagai Materi Belajar untuk Memandu Para Pelajar</h4>
                                         <p>By@Kamar<span className='sinau'>Sinau</span></p>
@@ -28,7 +28,7 @@ function Jumbotron() {
                                     alt="Second slide"
                                 />
                                 <Carousel.Caption>
-                                    <div className="cap align-items-center justify-content-between">
+                                    <div className="caption align-items-center justify-content-between">
                                         <h3>Sudah Siap Untuk Belajar?</h3>
                                         <h4>Semoga Aktifitas Belajarmu seru dan Menyenangkan Ya...</h4>
                                         <h6>By@Kamar<span className='sinau'>Sinau</span></h6>
