@@ -16,7 +16,7 @@ function AboutUs() {
                         </div>
                         <div className="about-content col-md-12">
                             <h4>Tujuan Dari KamarSinau</h4>
-                            <p> Tujuan dari website ini adalah dapat memberikan peningkatan pengetahuan bagi pelajar. Dan Menyediakan berbagai materi yang dapat diakses tanpa batas usia dengan harapan memberikan kelancaran dan kemudahan pagi para pengguna.</p>
+                            <p> Tujuan dari website ini adalah dapat memberikan peningkatan pengetahuan bagi pelajar. Dan Menyediakan berbagai materi yang dapat diakses tanpa batas usia dengan harapan memberikan kelancaran dan kemudahan bagi para pengguna.</p>
                         </div>
                         <div className="about-content col-12">
                             <h4>Manfaat dari Aplikasi ini:</h4>
