@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
     Nav, Col, Form, Row, Button,
 } from 'react-bootstrap';
@@ -31,12 +32,11 @@ function ProfilePage() {
                                     </div>
                                 </div>
                                 <Nav.Link eventKey="link-1" className="nav-link-profile fw-bold"><FaUserAlt className="me-3" />Akun Saya</Nav.Link>
-                                <Nav.Link eventKey="link-1" className="nav-item-profile">Profile</Nav.Link>
                                 <Nav.Link eventKey="link-1" className="nav-item-profile">Ubah Password</Nav.Link>
-                                <Nav.Link eventKey="link-1" className="nav-link-profile fw-bold"><FaHome className="me-3" />Home</Nav.Link>
-                                <Nav.Link eventKey="/about" className="nav-link-profile fw-bold"><RiAdminFill className="me-3" />Admin</Nav.Link>
-                                <Nav.Link eventKey="/forum" className="nav-link-profile fw-bold"><MdOutlineForum className="me-3" />Forum</Nav.Link>
-                                <Nav.Link eventKey="/login" className="nav-link-profile fw-bold"><FiLogOut className="me-3" />Keluar</Nav.Link>
+                                <Link to="/dasboard" className="nav-link-dasboard fw-bold"><FaHome className="me-3" />Home</Link>
+                                <Link to="/about" className="nav-link-profile fw-bold"><RiAdminFill className="me-3" />Admin</Link>
+                                <Link to="/forum" className="nav-link-forum fw-bold"><MdOutlineForum className="me-3" />Forum</Link>
+                                <Link to="/login" className="nav-link-profile fw-bold"><FiLogOut className="me-3" />Keluar</Link>
                             </Nav>
                         </div>
                         <div className="col-md-10">
