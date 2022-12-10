@@ -11,6 +11,7 @@ import LoginPage from './pages/LoginPage';
 import DasboardPage from "./pages/DasboardPage";
 import ModulesPage from "./pages/ModuleSdPage";
 import ProfilePage from './pages/ProfilePage';
+import ForumPage from "./pages/ForumPage";
 
 
 class App extends React.Component {
@@ -73,6 +74,7 @@ class App extends React.Component {
             <Route path="/dasboard" element={<DasboardPage />} />
             <Route path="/modules" element={<ModulesPage />} />
             <Route path="/profile" element={<ProfilePage />} />
+            <Route path="/forum" element={<ForumPage />} />
           </Routes>
         </main>
       </div>
