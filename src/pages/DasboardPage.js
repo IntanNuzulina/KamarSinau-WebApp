@@ -31,8 +31,7 @@ function DasboardPage() {
                                         <h1 className='fw-bold'>DASBOARD</h1>
                                     </div>
                                 </div>
-                                <Link to="/dasboard" className="nav-link-dasboard fw-bold"><FaUserAlt className="me-3" />Akun Saya</Link>
-                                <Link to="/profile" className="nav-item-dasboard">Profile</Link>
+                                <Link to="/profile" className="nav-link-dasboard fw-bold"><FaUserAlt className="me-3" />Akun Saya</Link>
                                 <Nav.Link eventKey="link-1" className="nav-link-dasboard fw-bold"><GiHelp className="me-3" /> Help</Nav.Link>
                                 <Nav.Link eventKey="link-1" className="nav-link-dasboard fw-bold"><FaHome className="me-3" />Home</Nav.Link>
                                 <Nav.Link eventKey="link-1" className="nav-link-dasboard fw-bold"><RiAdminFill className="me-3" />Admin</Nav.Link>
