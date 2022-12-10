@@ -32,12 +32,11 @@ function DasboardPage() {
                                     </div>
                                 </div>
                                 <Link to="/profile" className="nav-link-dasboard fw-bold"><FaUserAlt className="me-3" />Akun Saya</Link>
-                                <Link to="link-1" className="nav-item-dasboard">Profile</Link>
-                                <Nav.Link eventKey="link-1" className="nav-link-dasboard fw-bold"><GiHelp className="me-3" /> Help</Nav.Link>
-                                <Nav.Link eventKey="link-1" className="nav-link-dasboard fw-bold"><FaHome className="me-3" />Home</Nav.Link>
-                                <Nav.Link eventKey="link-1" className="nav-link-dasboard fw-bold"><RiAdminFill className="me-3" />Admin</Nav.Link>
-                                <Nav.Link eventKey="link-1" className="nav-link-dasboard fw-bold"><MdOutlineForum className="me-3" />Forum</Nav.Link>
-                                <Nav.Link eventKey="/login" className="nav-link-dasboard fw-bold"><FiLogOut className="me-3" />Keluar</Nav.Link>
+                                <Link to="/dasboard" className="nav-link-dasboard fw-bold"><FaHome className="me-3" />Home</Link>
+                                <Link to="/admin" className="nav-link-dasboard fw-bold"><RiAdminFill className="me-3" />Admin</Link>
+                                <Link to="/forum" className="nav-link-forum fw-bold"><MdOutlineForum className="me-3" />Forum</Link>
+                                <Link to="/login" className="nav-link-dasboard fw-bold"><FiLogOut className="me-3" />Keluar</Link>
+                                <Link to="link-1" className="nav-link-dasboard fw-bold"><GiHelp className="me-3" /> Help</Link>
                             </Nav>
                         </div>
                         <div className="col-md-10 bg-dark">
