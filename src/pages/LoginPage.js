@@ -9,7 +9,7 @@ function LoginPage() {
 
         const { error } = await login({ email, password });
         if (!error) {
-            loginSuccess("/");
+            loginSuccess("/dasboard");
         }
     }
 

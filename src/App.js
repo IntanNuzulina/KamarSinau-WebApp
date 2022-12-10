@@ -8,6 +8,8 @@ import HomePage from './pages/HomePage';
 import AboutUsPage from './pages/AboutUsPage';
 import RegisterPage from './pages/RegisterPage';
 import LoginPage from './pages/LoginPage';
+import DasboardPage from "./pages/DasboardPage";
+import ModulesPage from "./pages/ModuleSdPage";
 
 
 class App extends React.Component {
@@ -67,6 +69,8 @@ class App extends React.Component {
             <Route path="/about" exact element={<AboutUsPage />} />
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/login" element={<LoginPage />} />
+            <Route path="/dasboard" element={<DasboardPage />} />
+            <Route path="/modules" element={<ModulesPage />} />
           </Routes>
         </main>
       </div>

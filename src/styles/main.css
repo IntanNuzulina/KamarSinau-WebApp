@@ -326,3 +326,148 @@
 .login-left .image-login img {
     width: 100%
 }
+
+/* Dasboard */
+.dasboard-page {
+    padding-top: 30px;
+    margin-bottom: 150px;
+}
+
+.dasboard-page a {
+    color: #292929;
+}
+
+.user-dasboard .img-dasboard img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.user-dasboard h1 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.user-dasboard p {
+    font-size: 12px;
+    color: #9FA6B0;
+}
+
+.nav .nav-link-dasboard {
+    font-size: 15px;
+}
+
+.nav .nav-item-dasboard {
+    font-size: 14px;
+    padding-left: 48px;
+}
+
+.dasboard-right {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.dasboard-right h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    color: white;
+}
+
+.dasboard-right p {
+    font-size: 12px;
+    color: #0db38c;
+}
+
+.dasboard-right h4 {
+    font-size: 20px;
+    color: #0db38c;
+}
+
+.dasboard-right span {
+    color: whitesmoke;
+}
+
+.dasboard-category {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #0db38c;
+    border-radius: 5px;
+}
+
+
+.dasboard-right label {
+    font-weight: 500;
+}
+
+.dasboard-right .btn {
+    margin-top: 15px;
+    font-size: 14px;
+    background-color: #0db38c;
+    border: 2px solid transparent;
+    border-radius: 18px;
+    color: black;
+}
+
+.dasboard-right .btn:hover {
+    background-color: #fff;
+    border: 1px solid #0db38c;
+    color: #0db38c;
+}
+
+/*search bar & item list*/
+.search-bar input {
+    margin: 16px 0;
+    background-color: transparent;
+    border: 2px solid #0db38c;
+    border-radius: 20px;
+    padding: 8px;
+    width: 35%;
+    color: black;
+}
+
+.modules-list {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 16px 8px;
+    margin: 0 auto;
+    padding: 32px 0;
+    width: 90%;
+    max-width: 1200px;
+    color: #121212;
+}
+
+
+.module-item {
+    padding: 16px;
+    border-radius: 8px;
+    border: 2px solid #0db38c;
+    border-top: 5px solid;
+
+}
+
+.module-item__title {
+    margin: 4px 0;
+}
+
+.module-item__createdAt {
+    color: black;
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+.module-item__body {
+    margin-top: 16px;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}

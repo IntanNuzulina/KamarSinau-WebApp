@@ -35,4 +35,22 @@
     }
 }
 
+@media screen and (min-width: 650px) {
+    .modules-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .modules-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .modules-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
 @media screen and (min-width: 1024px) {}
