@@ -10,6 +10,7 @@ import RegisterPage from './pages/RegisterPage';
 import LoginPage from './pages/LoginPage';
 import DasboardPage from "./pages/DasboardPage";
 import ModulesPage from "./pages/ModuleSdPage";
+import ProfilePage from './pages/ProfilePage';
 
 
 class App extends React.Component {
@@ -71,6 +72,7 @@ class App extends React.Component {
             <Route path="/login" element={<LoginPage />} />
             <Route path="/dasboard" element={<DasboardPage />} />
             <Route path="/modules" element={<ModulesPage />} />
+            <Route path="/profile" element={<ProfilePage />} />
           </Routes>
         </main>
       </div>
