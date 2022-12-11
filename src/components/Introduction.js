@@ -14,7 +14,7 @@ function Introduction() {
                             <ul>
                                 <li>Mendaftarkan akun Pada laman REGISTER,</li>
                                 <li>Masuk ke website dengan memasukkan data pada laman LOGIN</li>
-                                <li>Setelah mendaftar dan masuk pada website ini, Anda dapat mempelajari materi yang sedang anda butuhkan.</li>
+                                <li>Setelah mendaftar dan masuk pada website ini, Anda Akan di arahkan ke halaman Dasboard dan dapat mempelajari materi yang sedang anda butuhkan.</li>
                             </ul>
                             <p>kelebihan menggunakan website ini.</p>
                             <p>Dapat Memberikan kemudahan bagi para pelajar, karena dapat diakes  di manapun dan kapan pun.</p>
