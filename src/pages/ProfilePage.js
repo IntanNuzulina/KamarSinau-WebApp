@@ -9,6 +9,7 @@ import {
 import { MdOutlineForum } from 'react-icons/md';
 import { RiAdminFill } from 'react-icons/ri';
 import { FiLogOut } from 'react-icons/fi';
+import { AiFillDashboard } from 'react-icons/ai';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import user from '../assets/images/profile.png';
@@ -36,6 +37,7 @@ function ProfilePage() {
                                 <Link to="/" className="nav-link-dasboard fw-bold"><FaHome className="me-3" />Home</Link>
                                 <Link to="/about" className="nav-link-profile fw-bold"><RiAdminFill className="me-3" />Admin</Link>
                                 <Link to="/forum" className="nav-link-forum fw-bold"><MdOutlineForum className="me-3" />Forum</Link>
+                                <Link to="/dasboard" className="nav-link-forum fw-bold ms-4"><AiFillDashboard className="ms-1 me-3" />Dashboard</Link>
                                 <Link to="/login" className="nav-link-profile fw-bold ms-2"><FiLogOut className="me-3" />Log Out</Link>
                             </Nav>
                         </div>

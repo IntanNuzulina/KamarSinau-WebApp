@@ -34,7 +34,7 @@ function AboutUs() {
                                                         <div className="admin">
                                                             <img className="d-block w-100" src={admin1} alt="Foto Admin 1" />
                                                         </div>
-                                                        <span className="about-content p">Agil Salahudin</span>
+                                                        <span className="about-content p">Intan Nuzulina</span>
                                                     </div>
                                                 </div>
                                                 <div className="col-12 col-md-3 col-lg-3">
@@ -42,7 +42,7 @@ function AboutUs() {
                                                         <div className="admin">
                                                             <img className="d-block w-100" src={admin2} alt="Foto Admin 2" />
                                                         </div>
-                                                        <span className="about-content p">Intan Nuzulina</span>
+                                                        <span className="about-content p">Elsa Syakira</span>
                                                     </div>
                                                 </div>
                                                 <div className="col-12 col-md-3 col-lg-3">
@@ -50,7 +50,7 @@ function AboutUs() {
                                                         <div className="admin">
                                                             <img className="d-block w-100" src={admin3} alt="Foto Admin 3" />
                                                         </div>
-                                                        <span className="about-content p">Elsa Syakira</span>
+                                                        <span className="about-content p">Agil Salahudin</span>
                                                     </div>
                                                 </div>
                                                 <div className="col-12 col-md-3 col-lg-3">
