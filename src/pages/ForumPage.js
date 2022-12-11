@@ -31,10 +31,10 @@ function ForumPage() {
                                     </div>
                                 </div>
                                 <Link to="/profile" className="nav-link-forum fw-bold"><FaUserAlt className="me-3" />Akun Saya</Link>
-                                <Link to="/dasboard" className="nav-link-forum fw-bold"><FaHome className="me-3" />Home</Link>
-                                <Link to="/about" className="nav-link-forum fw-bold"><RiAdminFill className="me-3" />Admin</Link>
-                                <Nav.Link to="/forum" className="nav-link-forum fw-bold"><MdOutlineForum className="me-3" />Forum</Nav.Link>
-                                <Link to="/login" className="nav-link-forum fw-bold"><FiLogOut className="me-3" />Keluar</Link>
+                                <Link to="/dasboard" className="nav-link-forum fw-bold ms-3"><FaHome className="me-3" />Home</Link>
+                                <Link to="/about" className="nav-link-forum fw-bold ms-3"><RiAdminFill className="me-3" />Admin</Link>
+                                <Link to="/forum" className="nav-link-forum fw-bold ms-3"><MdOutlineForum className="me-3" />Forum</Link>
+                                <Link to="/login" className="nav-link-forum fw-bold ms-4"><FiLogOut className="me-3" />Log Out</Link>
                             </Nav>
                         </div>
                         <div className="col-md-10">

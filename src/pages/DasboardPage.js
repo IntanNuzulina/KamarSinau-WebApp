@@ -32,11 +32,11 @@ function DasboardPage() {
                                     </div>
                                 </div>
                                 <Link to="/profile" className="nav-link-dasboard fw-bold"><FaUserAlt className="me-3" />Akun Saya</Link>
-                                <Link to="/dasboard" className="nav-link-dasboard fw-bold"><FaHome className="me-3" />Home</Link>
-                                <Link to="/admin" className="nav-link-dasboard fw-bold"><RiAdminFill className="me-3" />Admin</Link>
-                                <Link to="/forum" className="nav-link-forum fw-bold"><MdOutlineForum className="me-3" />Forum</Link>
-                                <Link to="/login" className="nav-link-dasboard fw-bold"><FiLogOut className="me-3" />Keluar</Link>
+                                <Link to="/" className="nav-link-dasboard fw-bold"><FaHome className="ms-3 me-3" />Home</Link>
+                                <Link to="/about" className="nav-link-dasboard fw-bold"><RiAdminFill className="ms-3 me-3" />Admin</Link>
+                                <Link to="/forum" className="nav-link-forum fw-bold"><MdOutlineForum className="ms-3 me-3" />Forum</Link>
                                 <Link to="link-1" className="nav-link-dasboard fw-bold"><GiHelp className="me-3" /> Help</Link>
+                                <Link to="/login" className="nav-link-dasboard fw-bold"><FiLogOut className="ms-4 me-3" />Log Out</Link>
                             </Nav>
                         </div>
                         <div className="col-md-10 bg-dark">

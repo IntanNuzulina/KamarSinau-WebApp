@@ -2,7 +2,7 @@
 
 .App {
     font-family: "Poppins", sans-serif;
-    background-color: var#F4F4F4;
+    background-color: #F4F4F4;
     color: #292929;
 }
 
@@ -195,7 +195,7 @@
 }
 
 .register-input {
-    margin-top: 20px;
+    margin-top: 35px;
 }
 
 .register-right h1 {
@@ -217,6 +217,7 @@
 
 .register-right .form-label {
     font-weight: 500;
+    color: black;
 }
 
 .register-right .form-control::placeholder {
@@ -265,7 +266,7 @@
 }
 
 .login-right {
-    margin-top: 70px;
+    margin-top: 45px;
 }
 
 .login-right h1 {
@@ -287,6 +288,7 @@
 
 .login-right .form-label {
     font-weight: 500;
+    color: black;
 }
 
 .login-right .form-control::placeholder {

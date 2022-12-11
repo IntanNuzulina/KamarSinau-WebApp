@@ -69,12 +69,12 @@ class App extends React.Component {
           <Routes>
             <Route path="/" exact element={<HomePage />} />
             <Route path="/about" exact element={<AboutUsPage />} />
+            <Route path="/forum" element={<ForumPage />} />
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/dasboard" element={<DasboardPage />} />
             <Route path="/modules" element={<ModulesPage />} />
             <Route path="/profile" element={<ProfilePage />} />
-            <Route path="/forum" element={<ForumPage />} />
           </Routes>
         </main>
       </div>

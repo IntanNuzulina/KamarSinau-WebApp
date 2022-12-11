@@ -72,7 +72,7 @@ class LoginInput extends React.Component {
                                     <Form.Label>Password</Form.Label>
                                     <Form.Control type="password" id="password" value={this.state.password} onChange={this.onPasswordChangeHandler} placeholder="********" />
                                 </Form.Group>
-                                <Link to="/about">
+                                <Link to="/">
                                     <div className="mt-5 d-flex justify-content-center align-items-center">
                                         <Button className="btn3 fw-bold" type="submit" onClick={this.onSubmitHandler}>Masuk</Button>
                                     </div>
